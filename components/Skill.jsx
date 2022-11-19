@@ -1,7 +1,8 @@
 import {motion} from 'framer-motion'
-import {GrHtml5} from 'react-icons/gr'
-import {FaCss3, FaNodeJs, SiJavascript, SiTailwindcss, BsFillBootstrapFill, FaReact, SiReactrouter, SiRedux, SiFramer} from 'react-icons/all'
+// import {GrHtml5} from 'react-icons/gr'
+// import {FaCss3, FaNodeJs, SiJavascript, SiTailwindcss, BsFillBootstrapFill, FaReact, SiReactrouter, SiRedux, SiFramer} from 'react-icons/all'
 
+{/* <FaCss3/>, <FaNodeJs/>, <SiJavascript/>, <SiTailwindcss/> */}
 const icons = [1, 2, 3, 4, 5]
 
 const Skill = () => {
