@@ -11,18 +11,19 @@ const About = () => {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-300 text-2xl">
         About
       </h3>
-      <div className="flex w-full justify-between items-center flex-col lg:flex-row">
+      <div className="flex w-full justify-between mt-32 md:mt-28 items-center flex-col lg:flex-row">
+        <div className='md:w-1/2 flex justify-center items-center'>
         <motion.img
           initial={{ x: -200, opacity: 0, scale: 0.5 }}
           whileInView={{ x: 0, opacity: 1, scale: 1 }}
           transition={{ duration: 1.5 }}
           src="/img3.jpg"
           alt="me"
-          className="w-56 h-56 mt-[9rem] lg:w-[20rem] lg:h-[20rem] md:mb-0 
-          flex-shrink-0 rounded-full object-cover
+          className="w-56 h-56 lg:w-[20rem] lg:h-[20rem] flex-shrink-0 rounded-full object-cover
         md:rounded-lg "
         />
-        <div className=" w-full text-center lg:w-8/12">
+        </div>
+        <div className=" w-full text-center md:w-1/2">
           <div className="pt-4">
             <h4 className="text-xl text-gray-300">
               Here is a little background

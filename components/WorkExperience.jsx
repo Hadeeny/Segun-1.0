@@ -1,8 +1,7 @@
 import {motion} from 'framer-motion'
 import ExperienceCard from './ExperienceCard'
-interface Props {}
 
-export const WorkExperience = (props: Props) => {
+export const WorkExperience = () => {
     return (
         <motion.div 
         initial={{opacity: 0, }}

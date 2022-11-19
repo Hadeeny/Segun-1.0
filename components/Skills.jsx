@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import Skill from "./Skill";
-interface Props {}
 
-const Skills = (props: Props) => {
+const Skills = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -18,19 +17,6 @@ const Skills = (props: Props) => {
         Hover over a skill for current proficiency
       </h3>
       <div className="absolute top-48 grid grid-cols-4 gap-5">
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
         <Skill />
       </div>
     </motion.div>

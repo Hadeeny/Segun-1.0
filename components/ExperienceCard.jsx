@@ -1,9 +1,5 @@
 import {motion} from 'framer-motion'
-interface Props {
-    
-}
-
-const ExperienceCard = (props: Props) => {
+const ExperienceCard = () => {
     return (
         <article className='flex mt-[8rem] flex-col rounded-lg items-center space-y-7 
         flex-shrink-0 lg:w-[500px] w-[300px] snap-center 
