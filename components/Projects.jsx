@@ -66,7 +66,7 @@ const Projects = () => {
         <div className="relative top-[3rem] z-[300] w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory">
           {myProjects.map((project, i) => {
             return (
-              <div
+              <div key={i}
                 className="w-screen flex-shrink-0 snap-center flex flex-col 
               space-y-4 items-center justify-center p-5 md:p-44 h-screen"
               >
