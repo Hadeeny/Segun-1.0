@@ -3,9 +3,11 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 const Hero = () => {
   const [text, count] = useTypewriter({
-    words: [`Hi! I'm Oluwasegun`, "Web Developer", "Digital marketer"],
+    words: [`Hi I'm Oluwasegun`, "Web Developer", "Digital marketer"],
+    cursorStyle: '_',
     loop: true,
     delaySpeed: 2000,
+
   });
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
@@ -20,10 +22,10 @@ const Hero = () => {
           Software Developer
         </h2>
         <h1>
-          <span className="text-5xl lg:6xl font-semibold">{text}</span>
+          <span className="text-2xl lg:6xl text-gray-200 tracking-widest font-semibold">{text}</span>
           <Cursor cursorColor="red" />
         </h1>
-        <div className="pt-5 space-x-5">
+        <div className="pt-5 space-x-2 md:space-x-5">
           <Link href="#about">
             <button className="heroButton">About</button>
           </Link>

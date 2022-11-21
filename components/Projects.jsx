@@ -60,10 +60,10 @@ const Projects = () => {
         className="h-screen relative flex overflow-hidden flex-col text-left 
         md:flex-row max-w-full justify-evenly mx-auto items-center z-0"
       >
-        <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-300 text-2xl">
+        <h3 className="absolute top-24 z-[400] uppercase tracking-[20px] text-gray-300 text-2xl">
           Projects
         </h3>
-        <div className="relative z-[300] w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory">
+        <div className="relative top-[3rem] z-[300] w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory">
           {myProjects.map((project, i) => {
             return (
               <div
@@ -82,7 +82,7 @@ const Projects = () => {
                     />
                   </div>
                 </Link>
-                <div className="space-y-5 text-center px-0 md:px-10 max-w-5xl">
+                <div className="space-y-5 text-center px-0 md:px-10 md:w-2/3 w-11/12">
                   <motion.h4
                     initial={{ opacity: 0, y: 100 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -105,7 +105,8 @@ const Projects = () => {
             );
           })}
         </div>
-        <div className="w-full absolute top-[30%] bg-yellow-500 h-[300px] -skew-y-12" />
+        <div className="w-full absolute hidden md:block top-[10%] bg-yellow-500 h-[200px] skew-y-12" />
+        <div className="w-full absolute md:top-[70%] top-[30%] bg-yellow-500 h-[200px] -skew-y-12" />
       </div>
     </>
   );
