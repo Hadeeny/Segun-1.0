@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import About from "../components/About";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
@@ -17,8 +16,6 @@ export default function Home() {
       </Head>
 
       <Header />
-
-      {/* Hero */}
 
       <section id="hero" className="snap-center">
         <Hero />
@@ -39,7 +36,6 @@ export default function Home() {
       <section id="projects" className="snap-start">
         <Projects />
       </section>
-      {/* Contact */}
     </div>
   );
 }
