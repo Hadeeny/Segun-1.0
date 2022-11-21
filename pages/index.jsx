@@ -15,9 +15,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
+      {/* <Header /> */}
 
-      <section id="hero" className="snap-center">
+      {/* <section id="hero" className="snap-center">
         <Hero />
       </section>
 
@@ -35,7 +35,7 @@ export default function Home() {
 
       <section id="projects" className="snap-start">
         <Projects />
-      </section>
+      </section> */}
     </div>
   );
 }
