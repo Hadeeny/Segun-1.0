@@ -106,7 +106,7 @@ const Projects = () => {
           })}
         </div>
         <div className="w-full absolute hidden md:block top-[10%] bg-yellow-500 h-[200px] skew-y-12" />
-        <div className="w-full absolute md:top-[70%] top-[60%] bg-yellow-500 h-[200px] -skew-y-12" />
+        <div className="w-full absolute md:top-[70%] top-[45%] bg-yellow-500 h-[200px] -skew-y-12" />
       </div>
     </>
   );
