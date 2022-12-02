@@ -11,7 +11,7 @@ const Header = () => {
       >
         <SocialIcon
           bgColor="transparent"
-          fgColor="#fafafa"
+          fgColor="#13a900"
           url="https://github.com/Hadeeny/"
         />
         {/* <SocialIcon
@@ -21,12 +21,12 @@ const Header = () => {
         /> */}
         <SocialIcon
           bgColor="transparent"
-          fgColor="#fafafa"
+          fgColor="#13a900"
           url="https://www.linkedin.com/in/segundeniyi/"
         />
         <SocialIcon
           bgColor="transparent"
-          fgColor="#fafafa"
+          fgColor="#13a900"
           url="https://twitter.com/segun_deniyi"
         />
       </motion.div>
@@ -36,7 +36,7 @@ const Header = () => {
         transition={{ duration: 1.5 }}
         className="flex space-x-2 items-center"
       >
-        <SocialIcon bgColor="transparent" fgColor="#fafafa" network="email" />
+        <SocialIcon bgColor="transparent" fgColor="#13a900" network="email" />
         <p className="hidden md:flex uppercase text-sm text-white">
           Get in touch
         </p>
