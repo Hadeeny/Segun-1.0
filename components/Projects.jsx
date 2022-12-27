@@ -14,7 +14,7 @@ const Projects = () => {
       image: "/musica",
     },
     {
-      title: "Music web app",
+      title: "Proshop e-commerce",
       link: "https://shopfestapp.herokuapp.com/",
       info: `
       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -24,7 +24,7 @@ const Projects = () => {
       image: "/proshop1.JPG",
     },
     {
-      title: "Music web app",
+      title: "Crappo cryto",
       link: "https://crappo-woad.vercel.app/",
       info: `
       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -34,17 +34,17 @@ const Projects = () => {
       image: "/crappo.JPG",
     },
     {
-      title: "Music web app",
-      link: "https://crappo-woad.vercel.app/",
+      title: "Artsy store",
+      link: "https://artsy-ashy.vercel.app/",
       info: `
       Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Nobis illo ratione ullam sequi culpa id ipsa ut labore esse,
       quod dolores provident accusamus modi molestias soluta!
       Ullam, rerum quisquam? Ad.`,
-      image: "/crappo.JPG",
+      image: "/artsy1.JPG",
     },
     {
-      title: "Music web app",
+      title: "Webisoft clone",
       link: "https://crappo-woad.vercel.app/",
       info: `
       Lorem ipsum dolor sit amet consectetur adipisicing elit.
