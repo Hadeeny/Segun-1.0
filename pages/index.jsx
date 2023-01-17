@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="bg-[#121212] text-[#e7ffe8] h-screen snap-y snap-mandatory overflow-scroll z-0">
       <Head>
-        <title>Hadeeny's</title>
+        <title>Oluwasegun's portfolio</title>
         <meta name="description" content="Oluwasegun's portfolio v1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
